@@ -50,7 +50,7 @@ int main(int argc, char const *argv[])
     std::cout << std::endl;
 
 // /*******************we can also use Fixed axis to solve******************/
-//     //adopt: XYZ rotation order(i.e. roll-pitch-yaw, and ACTIVE axis as reference)
+//     //adopt: XYZ rotation order(i.e. roll-pitch-yaw, and FIXED axis as reference)
 //     //eazy to see, Frame 1 ---[roll=-pi/2, pitch=0, yaw=pi/2]---> Frame 2
 //     // or you can still use angldeAxis
 //     Eigen::AngleAxisd rv_roll(-PI/2, Eigen::Vector3d::UnitX()); // FIXED axis
